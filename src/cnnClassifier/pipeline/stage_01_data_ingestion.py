@@ -8,7 +8,6 @@ import os
 
 
 
-
 STAGE_NAME = "Data Ingestion Stage"
 
 class DataIngestionTrainingPipeline:
@@ -17,8 +16,8 @@ class DataIngestionTrainingPipeline:
 
     def main(self):
         config = ConfigurationManager()
-        data_ignestion = config.get_data_ingestion_config()
-        data_ingestion = DataIngestion(config=data_ignestion)
+        data_ingestion = config.get_data_ingestion_config()
+        data_ingestion = DataIngestion(config=data_ingestion)
         data_ingestion.copy_files()
     
 

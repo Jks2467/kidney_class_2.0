@@ -2,7 +2,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: "C:/Users/jksha/OneDrive/Documents/datasets/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone"
+  source_URL: "C:/Users/jksha/Documents/datasets/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone"
   unzip_dir: "artifacts/data_ingestion"
 
 prepare_base_model:
