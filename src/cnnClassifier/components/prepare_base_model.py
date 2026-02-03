@@ -47,8 +47,9 @@ class PrepareBaseModel:
         
         full_model.compile(
             optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
-            loss="sparse_categorical_crossentropy",
-            metrics=["accuracy"]
+            loss="categorical_crossentropy",
+            metrics=["accuracy"],
+            run_eagerly=True
         )
 
         logger.info("Full model is prepared and compiled.")
