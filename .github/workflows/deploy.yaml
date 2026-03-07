@@ -34,6 +34,8 @@ jobs:
         with:
           workload_identity_provider: '${{ env.WORKLOAD_IDENTITY_PROVIDER }}'
           service_account: 'kidney-desease-classication@astrology-website-460112.iam.gserviceaccount.com'
+          create_credentials_file: true
+          export_environment_variables: true
 
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v2'
