@@ -11,7 +11,7 @@ env:
   SERVICE: 'jks-kidney-desease-classication-api' # TODO: update to your service name
   WORKLOAD_IDENTITY_PROVIDER: 'projects/1043902898263/locations/global/workloadIdentityPools/cloud-run-pool-for-kdc/providers/github' # TODO: update to your workload identity provider
 
-  # give this access principalSet://iam.googleapis.com/projects/1043902898263/locations/global/workloadIdentityPools/cloud-run-pool-for-kdc/attribute.repository/kidney_class_2.0
+  # give this access principalSet://iam.googleapis.com/projects/1043902898263/locations/global/workloadIdentityPools/cloud-run-pool-for-kdc/attribute.repository/Jks2467/kidney_class_2.0
 jobs:
   deploy:
     runs-on: 'ubuntu-latest'
